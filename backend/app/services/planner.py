@@ -519,7 +519,7 @@ class CoveragePlanner:
             "accessible_area_m2": round(accessible_area, 3),
             "coverage_efficiency_pct": round(coverage_efficiency, 2),
         }
-
++-
 
 def create_plan(
     wall_width: float,
