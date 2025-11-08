@@ -635,18 +635,6 @@ open htmlcov/index.html
 
 ---
 
-## 🚢 Deployment
-
-### Docker Production
-
-```bash
-# Build images
-docker build -f infra/Dockerfile.backend -t wall-robot-backend .
-docker build -f infra/Dockerfile.frontend -t wall-robot-frontend .
-
-# Run with docker-compose
-docker-compose -f infra/docker-compose.yml up -d
-```
 
 ### Environment Variables
 
