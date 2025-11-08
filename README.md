@@ -740,43 +740,6 @@ function isJump(p1, p2) {
 
 ---
 
-## 🎥 Video Walkthrough
-
-### Recording Checklist
-
-- ✅ Introduction & problem overview (0:00-0:30)
-- ✅ Frontend demo: create wall, both patterns, playback controls (0:30-2:00)
-- ✅ Backend API documentation (2:00-3:00)
-- ✅ Code walkthrough: algorithms, obstacle avoidance (3:00-5:00)
-- ✅ Testing demonstration (5:00-6:00)
-- ✅ Docker deployment (6:00-7:00)
-
----
-
-## 🤝 Submission
-
-### GitHub Collaborators
-
-Add to your **private** repository:
-- `tanay@10xconstruction.ai`
-- `tushar@10xconstruction.ai`
-
-### Checklist
-
-- ✅ Code pushed to GitHub
-- ✅ README.md complete
-- ✅ Video walkthrough recorded
-- ✅ Collaborators added
-- ✅ All tests passing
-- ✅ Docker verified
-
----
-
-## 📄 License
-
-MIT License
-
----
 
 ## 🙏 Acknowledgments
 
