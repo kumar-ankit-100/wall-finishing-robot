@@ -27,16 +27,7 @@ npm run dev
 - Backend API: http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
-### Option 2: Docker (Recommended for Deployment)
-
-```bash
-cd /home/ankit/Videos/10x/wall-finishing-robot
-docker-compose -f infra/docker-compose.yml up --build
-```
-
-**Access**:
-- Frontend: http://localhost:3000
-- Backend: http://localhost:8000
+> Note: This quickstart focuses on local development. The repository contains optional sample infrastructure files for advanced deployment scenarios; they are not required to run or test the project locally.
 
 ## 📁 Project Structure
 
@@ -64,7 +55,7 @@ wall-finishing-robot/
 │   ├── design.md
 │   ├── api_spec.md
 │   └── how_to_record_walkthrough.md
-├── infra/           # Docker & deployment
+├── infra/           # Optional: sample infra files (not required for local dev)
 └── README.md
 ```
 
@@ -195,7 +186,7 @@ See `docs/how_to_record_walkthrough.md` for detailed guide.
 ✅ Playback controls  
 ✅ Tests with 80%+ coverage  
 ✅ Complete documentation  
-✅ Docker deployment  
+> Docker-related steps removed from this quickstart; follow your organization's deployment guide if you need containerized deployment.
 ✅ CI/CD pipeline  
 
 ## 🚀 Next Steps

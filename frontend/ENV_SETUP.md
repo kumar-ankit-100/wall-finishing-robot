@@ -38,22 +38,7 @@ npm run build
 
 ### Docker Deployment
 
-When using Docker, pass the environment variable:
-
-```bash
-docker build --build-arg VITE_API_URL=https://api.example.com -t frontend .
-```
-
-Or use docker-compose:
-
-```yaml
-services:
-  frontend:
-    build:
-      context: .
-      args:
-        VITE_API_URL: https://api.example.com
-```
+> Note: Docker-related instructions have been intentionally removed from this guide. For local development and production builds, set `VITE_API_URL` in your environment or in `.env`/`.env.production` as appropriate. If you need container-based deployment, add project-specific instructions in a separate deployment guide.
 
 ## Available Variables
 

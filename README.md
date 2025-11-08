@@ -42,7 +42,7 @@ This system generates optimal coverage paths for wall-finishing robots that need
 ✅ **Real-time Visualization**: Canvas-based playback with controls  
 ✅ **RESTful API**: FastAPI backend with automatic validation  
 ✅ **Persistent Storage**: SQLite database with optimized indexing  
-✅ **Production Ready**: Docker, CI/CD, logging, metrics, tests  
+✅ **Production Ready**: CI/CD, logging, metrics, tests  
 
 ---
 
@@ -479,15 +479,9 @@ def validate_path_safety(points):
 | **HTTP Client** | Axios | 1.6.2 | Promise-based HTTP client |
 | **Icons** | Lucide React | 0.294.0 | Modern icon library |
 
-### DevOps
+### Operational Notes
 
-| Component | Technology | Purpose |
-|-----------|-----------|---------|
-| **Containerization** | Docker | Application packaging |
-| **Orchestration** | Docker Compose | Multi-container management |
-| **CI/CD** | GitHub Actions | Automated testing and deployment |
-| **Web Server** | Nginx | Reverse proxy and static hosting |
-
+This project is designed for local development and CI-driven pipelines. The repository contains sample infrastructure files for advanced deployment scenarios, but this README focuses on local setup and testing. Use your preferred hosting or orchestration (cloud services, container platforms) for production deployments and adapt configuration accordingly.
 ---
 
 ## 🚀 Installation & Setup
@@ -555,18 +549,6 @@ Frontend will be available at:
 
 ---
 
-### Option 2: Docker Setup (Recommended)
-
-```bash
-# 1. Build and run all services
-docker-compose -f infra/docker-compose.yml up --build
-
-# Services will be available at:
-# - Backend: http://localhost:8000
-# - Frontend: http://localhost:3000
-```
-
----
 
 ## 📚 API Documentation
 
