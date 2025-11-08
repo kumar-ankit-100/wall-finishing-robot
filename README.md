@@ -26,7 +26,6 @@ A production-ready fullstack application for autonomous wall-finishing robot pat
 13. [Project Structure](#-project-structure)
 14. [Implementation Details](#-implementation-details)
 15. [Challenges & Solutions](#-challenges--solutions)
-16. [Video Walkthrough](#-video-walkthrough)
 
 ---
 
